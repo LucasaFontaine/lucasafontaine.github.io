@@ -3,13 +3,6 @@ body {
      background-image: url('america.png');
     background-size: cover;
 }
-a{
-    border-radius: 20px;
-    background-color: black;
-    color: white;
-    padding: 10px;
-    text-decoration: none;
-}
 section {
     width:90%;
     background-color: rgba(100,200,100,0.9);
@@ -39,12 +32,38 @@ h5{
     margin-bottom: 2px;  
 font-size: 25px;
 }
-h6{
-    font-size: 1px;       
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+    overflow: hidden;
+  background-color: #f1f1f1;
+    border: 1px solid black;
 }
-h7{
-    font-family: serif;
+
+li a {
+  display: block;
+  color: #000;
+  padding: 14px 16px;
+  text-decoration: none;
     text-align: center;
-    color: aliceblue;
-    background-color: blue;
+}
+li a.active {
+  background-color: blue;
+  color: white;
+}
+li a:hover {
+  background-color: #555;
+  color: white;
+}
+li{
+    float: left;
+}
+a {
+  display: block;
+  padding: 8px;
+  background-color: #dddddd;
+}
+li a.pog{
+
 }
