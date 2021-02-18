@@ -32,6 +32,15 @@ h5{
     margin-bottom: 2px;  
 font-size: 25px;
 }
+h6{
+    font-size: 1px;       
+}
+h7{
+    font-family: serif;
+    text-align: center;
+    color: aliceblue;
+    background-color: blue;
+}
 ul {
   list-style-type: none;
   margin: 0;
@@ -47,6 +56,7 @@ li a {
   padding: 14px 16px;
   text-decoration: none;
     text-align: center;
+    float: left;
 }
 li a.active {
   background-color: blue;
@@ -56,14 +66,22 @@ li a:hover {
   background-color: #555;
   color: white;
 }
-li{
-    float: left;
 }
 a {
   display: block;
   padding: 8px;
   background-color: #dddddd;
 }
-li a.pog{
-
+.flexmenu {
+    width: 100%;
+    background-color: aliceblue;
+    display: flex;
+    list-style-type: none;
+    flex-wrap: wrap;
+    padding-left: 0px;
+    text-align: center;
+}
+.flexmenuitem {
+    background-color: aliceblue;
+    box-sizing: border-box;
 }
