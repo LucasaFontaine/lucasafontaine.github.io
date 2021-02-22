@@ -1,11 +1,11 @@
 body {
     font-family: sans-serif;
-     background-image: url('america.png');
     background-size: cover;
+    background-color: #5CDB89;
 }
 section {
     width:90%;
-    background-color: rgba(100,200,100,0.9);
+    background-color:#5CDB95;
     margin-left: auto;
     margin-right: auto;
 }
